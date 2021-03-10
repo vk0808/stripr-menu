@@ -185,7 +185,8 @@ Stripe Styles
   height: 65%;
   top: 0;
   left: 0;
-  background: url(./images/hero.svg);
+  clip-path: polygon(0% 0%, 1000% 0, 100% 60%, 0 100%, 0% 100%);
+  background: yellow;
   background-size: cover;
   background-repeat: no-repeat;
   z-index: -1;
@@ -214,6 +215,8 @@ Stripe Styles
   max-width: 35em;
   line-height: 1.8;
   letter-spacing: var(--spacing);
+  font-size: 1rem;
+  font-weight: 600;
 }
 .hero-images {
   display: none;
@@ -241,6 +244,7 @@ Stripe Styles
     height: 100%;
     display: grid;
     align-items: center;
+    
   }
   .nav-links li {
     height: 100%;
@@ -250,7 +254,7 @@ Stripe Styles
     background: transparent;
     border-color: transparent;
     font-size: 1.1rem;
-    color: white;
+    color: black;
     text-transform: capitalize;
     letter-spacing: 1px;
     width: 10rem;
