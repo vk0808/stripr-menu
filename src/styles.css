@@ -244,7 +244,6 @@ Stripe Styles
     height: 100%;
     display: grid;
     align-items: center;
-    
   }
   .nav-links li {
     height: 100%;
@@ -414,14 +413,11 @@ Stripe Styles
   display: grid;
   gap: 0.25rem 2rem;
 }
+.col-1 {
+  grid-template-columns: repeat(1, 1fr);
+}
 .col-2 {
   grid-template-columns: repeat(2, 1fr);
-}
-.col-3 {
-  grid-template-columns: repeat(3, 1fr);
-}
-.col-4 {
-  grid-template-columns: repeat(4, 1fr);
 }
 .submenu h4 {
   margin-bottom: 1.5rem;
